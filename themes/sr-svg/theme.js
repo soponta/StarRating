@@ -5,9 +5,6 @@
  * bootstrap-star-rating v4.1.3
  * http://plugins.krajee.com/star-rating
  *
- * Author: Kartik Visweswaran
- * Copyright: 2013 - 2021, Kartik Visweswaran, Krajee.com
- *
  * Licensed under the BSD 3-Clause
  * https://github.com/kartik-v/bootstrap-star-rating/blob/master/LICENSE.md
  */
@@ -22,7 +19,7 @@
     }
 }(function ($) {
     "use strict";
-    $.fn.ratingThemes['krajee-fa'] = {
+    $.fn.ratingThemes['sr-fa'] = {
         filledStar: '<i class="fa fa-star"></i>',
         emptyStar: '<i class="fa fa-star-o"></i>',
         clearButton: '<i class="fa fa-lg fa-minus-circle"></i>'
