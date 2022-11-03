@@ -1,10 +1,6 @@
 /*!
  * bootstrap-star-rating v4.1.3
  * http://plugins.krajee.com/star-rating
- *
- * Author: Kartik Visweswaran
- * Copyright: 2013 - 2021, Kartik Visweswaran, Krajee.com
- *
  * Licensed under the BSD 3-Clause
  * https://github.com/kartik-v/bootstrap-star-rating/blob/master/LICENSE.md
  */
@@ -627,7 +623,7 @@
     };
 
     $.fn.rating.defaults = {
-        theme: 'krajee-svg',
+        theme: 'sr-svg',
         language: 'en',
         stars: 5,
         tabindex: 0,
@@ -652,9 +648,9 @@
             4.5: 'caption-badge caption-success',
             5: 'caption-badge caption-success'
         },
-        filledStar: '<span class="krajee-icon krajee-icon-star"></span>', // krajee-svg theme
-        emptyStar: '<span class="krajee-icon krajee-icon-star"></span>',  // krajee-svg theme
-        clearButton: '<span class="krajee-icon-clear"></span>',           // krajee-svg theme
+        filledStar: '<span class="sr-icon sr-icon-star"></span>', // sr-svg theme
+        emptyStar: '<span class="sr-icon sr-icon-star"></span>',  // sr-svg theme
+        clearButton: '<span class="sr-icon-clear"></span>',       // sr-svg theme
         clearButtonBaseClass: 'clear-rating',
         clearButtonActiveClass: 'clear-rating-active',
         clearCaptionClass: 'caption-badge caption-secondary',
@@ -697,7 +693,7 @@
     $.fn.rating.Constructor = Rating;
 
     /**
-     * Convert automatically inputs with class 'rating' into Krajee's star rating control.
+     * Convert automatically inputs with class 'rating' into star rating control.
      */
     $(document).ready(function () {
         var $input = $('input.rating');
